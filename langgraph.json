@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "kiwi_mcp_travelAgent": "./agent.py:build_Agent"
+  },
+  "env": ".env"
+}
