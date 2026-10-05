@@ -6,9 +6,14 @@ The agent understands natural language travel requests and can use external tool
 
 For example:
 
-> Find me a flight from New Delhi to Mumbai on 8 October.
+> Find me a flight from New Delhi to Mumbai on 12 October, 2026, for a single adult.
 
 The agent can interpret the request, use the Kiwi MCP tools to search for suitable flights, and return the available options in a structured response.
+
+
+
+
+<img width="1117" height="686" alt="image" src="https://github.com/user-attachments/assets/66c160da-c381-4c88-849d-a0d3837dcb27" />
 
 ---
 
@@ -91,6 +96,7 @@ The project also includes a `langgraph.json` configuration for running the agent
 ---
 
 ## Architecture
+
 
 ```text
                          User
@@ -234,7 +240,12 @@ Booking link
 
 The exact results depend on live flight availability.
 
+
+<img width="427" height="464" alt="image" src="https://github.com/user-attachments/assets/20edff5e-d626-47ec-a2dc-eab91a903a09" />
+
+
 ---
+
 
 
 ## Agent Design
